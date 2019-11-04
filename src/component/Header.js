@@ -22,18 +22,18 @@ render() {
             <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}
             </h3>
             <hr/>
-            {/* <ul className="social">
+            <ul className="social">
                 {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
                     return(
                             <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                                <a href={item.url} target="blank"><i className={item.className}></i></a>
                             </li>
                             )
                         }
                     )
                 }
-            </ul> */}
+            </ul>
             </div>
         </div>
 

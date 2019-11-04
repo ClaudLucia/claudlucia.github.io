@@ -3,6 +3,7 @@
         "name": "Claudia Rojas",
         "role": "Junior Javascript Developer",
         "linkedinId":"ClaudiaLuRojas",
+        "email":"ClaudiaLuRojas@gmail.com",
         "roleDescription": "",
         "socialLinks":[
             {
@@ -16,17 +17,29 @@
             "className":"fa fa-github"
             }
         ],
-        "aboutme":"I am currently a Junior Javascript Developer for Valley Forge Fabrics, a fabric manufacturing company.  My main responsibilities include developing a new ERP system to deploy in 2020.",
+        "aboutme":"I am currently a Junior Javascript Developer at Valley Forge Fabrics. \n My main interest are in front end development and cyber security.",
         //"website":"https://rbhatia46.github.io",
         "education":[
         {
             "UniversityName":"Marist College",
             "specialization":"Computer Science",
+            
             "MonthOfPassing":"May",
             "YearOfPassing":"2019",
             "Achievements":"Honors B.S."
         }
         ],
+        "minors" : 
+            [
+                {
+                    "minorName": "Information Technology"
+                },
+                {
+                    "minorName": "Information Systems"
+                },{
+                    "minorName": "Cyber Security"
+                }
+            ],
         "work":[
         {
             "CompanyName":"Valley Forge Fabrics",

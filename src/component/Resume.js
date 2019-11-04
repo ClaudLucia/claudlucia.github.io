@@ -19,9 +19,21 @@ class Resume extends Component {
                     <h3>{item.UniversityName}</h3>
                     <p className="info">
                       {item.specialization}
-                      <span> &bull;</span><em className="date"> {item.MonthOfPassing} {item.YearOfPassing}</em>
+                      <span>&bull;</span><em>{item.Achievements}</em><span>&bull;</span><em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em>
+                      <h4>Minors</h4>
+                      <ul className="minors">
+                      
+                      {
+                        resumeData.minors && resumeData.minors.map((item) => {
+                          return(
+                            <li>{item.minorName}
+                            </li>
+                          )
+                        })
+                      }
+                    </ul>
                     </p>
-                    <p>{item.Achievements}</p>
+                    
                   </div>
                 </div>
               )
@@ -57,9 +69,9 @@ class Resume extends Component {
           <h2><span>Skills</span></h2>
         </div>
         <div className="nine columns main-col">
-          <p>
+          {/* <p>
             {resumeData.skillsDescription}
-          </p>
+          </p> */}
           <div className="bars">
             <ul className="skills">
               {

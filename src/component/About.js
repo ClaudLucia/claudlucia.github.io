@@ -5,7 +5,7 @@ class About extends Component{
         let resumeData = this.props.resumeData;
             return (
                 <section id="about">
-                    <div className="three columns main-col">
+                    <div className="nine columns main-col">
                         <h1>About Me</h1>
                         <p>
                             {
