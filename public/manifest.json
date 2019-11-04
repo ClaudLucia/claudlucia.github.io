@@ -2,7 +2,6 @@
   "homepage": "https://ClaudLucia.github.io",
   "short_name": "React App",
   "name": "Create React App Sample",
-  "main" : "index.js",
   "icons": [
     {
       "src": "favicon.ico",
