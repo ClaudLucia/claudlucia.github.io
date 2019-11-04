@@ -3,6 +3,7 @@
   "name": "claudiaportfolio",
   "version": "0.1.0",
   "private": true,
+  "main" : "index.js",
   "dependencies": {
     "framer-motion": "^1.6.15",
     "gh-pages": "^2.1.1",
