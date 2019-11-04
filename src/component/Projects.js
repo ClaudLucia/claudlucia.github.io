@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+    import React, { Component } from "react";
 
-class Projects extends Component {
-    render(){
-        // let resumeData = this.props.resumeData;
-        return (
-            <div>
-                <h1>Projects</h1>
+    class Projects extends Component {
+        render(){
+            let resumeData = this.props.resumeData;
+            return (
+            <section id="resume">
+            <div className="row education">
                 
-            </div>
-        );
-    }
-}
+            </section>
+            );
+        }
+        }
 
-export default Projects;
+    export default Projects;

@@ -17,6 +17,7 @@ class Resume extends Component {
                 <div className="row item">
                   <div className="twelve columns">
                     <h3>{item.UniversityName}</h3>
+                    <h4>{item.location}</h4>
                     <p className="info">
                       {item.specialization}
                       <span>&bull;</span><em>{item.Achievements}</em><span>&bull;</span><em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em>
@@ -37,6 +38,27 @@ class Resume extends Component {
                   </div>
                 </div>
               )
+            })
+          }
+        </div>
+      </div>
+      <div className="row work">
+        <div className="three columns header-col">
+            <h2><span>Projects</span></h2>
+        </div>
+        <div className="nine columns header-col">
+          {
+            resumeData.portfolio && resumeData.portfolio.map((item)=>{
+            return(
+                <div className="row item">
+                    <div className="twelve columns">
+                        <h3>{item.name}</h3>
+                        <p className="info">
+                        {item.description}
+                        </p>        
+                    </div>
+                </div>
+            )
             })
           }
         </div>

@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
-// import './App.css';
-// import Projects from './component/Projects.js';
+import './App.css';
 
 import Header from './component/Header.js';
 import About from './component/About.js';
 import Resume from './component/Resume.js';
 import Contact from './component/Contact.js';
+// import Projects from './component/Projects.js';
 import resumeData from './component/resumeData.js';
 
 
@@ -18,8 +18,8 @@ class App extends Component {
         
         <Header resumeData={resumeData}/>
         <About resumeData={resumeData}/>
-        {/* <Projects resumeData={resumeData}/> */}
         <Resume resumeData={resumeData}/>
+        {/* <Projects resumeData={resumeData}/> */}
         <Contact resumeData={resumeData}/>
       </div>
     );

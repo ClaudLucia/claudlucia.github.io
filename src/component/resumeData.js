@@ -23,7 +23,7 @@
         {
             "UniversityName":"Marist College",
             "specialization":"Computer Science",
-            
+            "location":"Poughkeepsie, NY",
             "MonthOfPassing":"May",
             "YearOfPassing":"2019",
             "Achievements":"Honors B.S."
@@ -64,36 +64,28 @@
             "skillname":"Reactjs"
         }
         ],
-        // "portfolio":[
+        "portfolio":[
+        {
+            "name":"Through the Looking Glass: Exposing the vulnerabilities of Smart Doorbell Systems",
+            "description":"ABSTRACT",
+            "imgurl":"//"
+        },
+        {
+            "name":"Arduino Temperature and Humidity Sensor for Emergency Systems",
+            "description":"ABSTRACT",
+            "imgurl":"//"
+        }
+        ],
+        // "activities":[
         // {
-        //     "name":"project1",
-        //     "description":"mobileapp",
-        //     "imgurl":"images/portfolio/phone.jpg"
+        //     "name":"This is a sample testimonial",
+        //     "description":"Some technical guy",
+        //     "time": "recent first"
         // },
         // {
-        //     "name":"project2",
-        //     "description":"mobileapp",
-        //     "imgurl":"images/portfolio/project.jpg"
-        // },
-        // {
-        //     "name":"project3",
-        //     "description":"mobileapp",  
-        //     "imgurl":"images/portfolio/project2.png"
-        // },
-        // {
-        //     "name":"project4",
-        //     "description":"mobileapp",
-        //     "imgurl":"images/portfolio/phone.jpg"
-        // }
-        // ],
-        // "testimonials":[
-        // {
-        //     "description":"This is a sample testimonial",
-        //     "name":"Some technical guy"
-        // },
-        // {
-        //     "description":"This is a sample testimonial",
-        //     "name":"Some technical guy"
+        //     "name":"This is a sample testimonial",
+        //     "description":"Some technical guy",
+        //     "time": "recent first"
         // }
         // ]
     }
