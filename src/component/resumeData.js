@@ -67,12 +67,16 @@
         "portfolio":[
         {
             "name":"Through the Looking Glass: Exposing the vulnerabilities of Smart Doorbell Systems",
-            "description":"ABSTRACT",
+            "description":"Intercepted packets between three different smart doorbell devices on the market using a man-in-the-middle. ",
+            "description2":"Analyzed packet capture files to find vulnerabilities in the smart doorbell devices.",
+            "presented":"Presented at the New York Celebrates Women in Computing convention at Lake George, Marist College Celebration of Undergraduate Research, Scholarship, and Creative Activity (CURSCA), and at Grace Hopper Celebration in 2019",
             "imgurl":"//"
         },
         {
             "name":"Arduino Temperature and Humidity Sensor for Emergency Systems",
-            "description":"ABSTRACT",
+            "description":"Createda device thatpreventsflooding in homes and buildingsand continuously collects data.",
+            "description2":"Analyzed the security flaws within these smart devices and how they can be easily infiltrated.  ",
+            "presented":"Presented at the Marist College Celebration of Undergraduate Research, Scholarship, and Creative Activity (CURSCA) in 2018",
             "imgurl":"//"
         }
         ],
